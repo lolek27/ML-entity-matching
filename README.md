@@ -21,10 +21,10 @@ Assuming it's the F1 score for the positive class, with techniques I've helped d
 1.   **96.68%** F1 score for Abt-Buy (compare to 94.68% from paper above)
 2.   **94.83%** F1 score for Amazon-Google (compare to 80% from paper above)
 
-What I've tried in short is:
+What's been tried in short is:
 *   [Sentence Transfomers](https://www.sbert.net/) embeddings - SOTA sentence, text and image embeddings
 *   [ScaNN](https://github.com/google-research/google-research/tree/master/scann) - efficient vector similarity search
-*   Data augmentation
+*   Data augmentation (based on cool [nlpaug](https://nlpaug.readthedocs.io/en/latest/index.html) library that enables swapping, deleting, cropping, insertion and substituting parts of descriptions with semantically similar words)
  
 
 ### Results:
